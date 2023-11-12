@@ -160,7 +160,7 @@ span{
 .aboutme{
     display: flex;
     flex-direction:column;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .aboutme .centrartexto{
