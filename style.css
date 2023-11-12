@@ -99,15 +99,19 @@ header .nav ul li{
     /* height: 100vh; */
 }
 
+.home .image{
+    flex: 1 1 45rem;
+}
+
 .home .image img{
-    width:50rem;
-    height:50rem;
+    width:75%;
     border-radius: 50%;
     border: 7px solid white;
 } 
 
 .home .contenido{
     padding: 2rem;
+    flex: 1 1 45;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -160,7 +164,7 @@ span{
 .aboutme{
     display: flex;
     flex-direction:column;
-    /* height: 80vh; */
+
 }
 
 .aboutme .centrartexto{
