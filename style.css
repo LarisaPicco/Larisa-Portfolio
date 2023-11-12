@@ -96,7 +96,7 @@ header .nav ul li{
     flex-wrap: wrap;
     padding-top: 12rem;
     gap:1.5rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .home .image img{
