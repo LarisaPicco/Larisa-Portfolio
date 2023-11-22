@@ -437,9 +437,9 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 15rem;
-    margin-left: 15rem;
+    justify-content: space-around;
+    /* margin-right: 10rem;
+    margin-left: 10rem; */
 }
 
 .footer .box-contenedor .contacto{
@@ -470,10 +470,6 @@ img{
  }
 
 
-.footer .box-contenedor .formulariofooter form{
-  padding: 3rem;
-}
-
 .redesfooter a i{
   color: white;
   font-size: 20px;
@@ -487,34 +483,34 @@ img{
 form{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 input{
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 0.1rem solid black;
 }
 
 form input {
-    padding-bottom: 3px;
-    margin-bottom: 20px;
+    padding-bottom: 0.3rem;
+    margin-bottom: 2rem;
 }
 
 input, textarea {
     outline: none;
     background-color: transparent;
-    font-size: 20px;        
+    font-size: 2rem;        
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 0.1rem solid rgba(0,0,0,0.5);
 }
 
 input:focus, textarea:focus {
-    border-bottom: 1px solid;
+    border-bottom: 0.1rem solid;
 }
 
 textarea {
-    padding: 7px;
-    margin-bottom: 20px;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
 }
 
 form a button{
@@ -531,11 +527,11 @@ form a button p{
 
  /* estilo para el formulario */
 .warnings{
-    width: 200px;
+    width: 20rem;
     text-align: center;
     margin: auto;
     color: red;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 
@@ -661,11 +657,6 @@ form a button p{
     } */ /*mejor esto no ponerlo, porque perjudica, la galeria en
     responsive no se puede acomodar. Mejor es modificar la galeria en modo escritorio haciendo el display grid y no tocarla en responsive*/
  
-    .footer .box-contenedor{
-        padding: 3rem;
-        margin: 0;
-    }
-
 }
    
 
