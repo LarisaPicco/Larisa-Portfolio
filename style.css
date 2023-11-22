@@ -94,13 +94,16 @@ header .nav ul li{
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 12rem;
+    padding-top: 15rem;
     padding-bottom: 6rem;
 }
 
+.home .image{
+flex: 1 1 45rem;
+}
 
 .home .image img{
-    width:75%;
+    width:70%;
     border-radius: 50%;
     border: 7px solid white;
 } 
@@ -123,12 +126,6 @@ header .nav ul li{
 .home .contenido div p{
     font-size: 2rem;
 }
-
-
-.home .contenido{  
-    
-    flex: 1 1 45rem; 
-} 
 
 .home .contenido div button{
     background-color:rgb(33, 37, 41);
@@ -540,9 +537,13 @@ img{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-top: 20rem;
+        padding-top: 15rem;
         }
       
+    .home .image{
+            flex: none;
+        }   
+        
     .home .image img{
         width:33rem;
         height:33rem;
