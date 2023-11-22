@@ -95,6 +95,7 @@ header .nav ul li{
     align-items: center;
     flex-wrap: wrap;
     padding-top: 12rem;
+    padding-bottom: 6rem;
     gap:1.5rem;
     /* height: 100vh; */
 }
