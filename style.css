@@ -67,12 +67,12 @@ header .nav ul li{
     list-style-type: none
 }
 
-.iconosestilo{
+ul li a i{
     color: rgb(77, 85, 90);
     font-size: 20px;
-    
 }
-.iconosestilo:hover{
+
+ul li a i:hover{
     color: #C7CEEA;
    }
 
@@ -242,6 +242,10 @@ background-color: #f5f5f5;
     font-size: 3.5rem;
     color: rgb(77, 85, 90);
 }
+
+.borderleft{
+    border-left: 3px solid #C7CEEA
+   }
 
 
 .curriculum .centrartexto{
@@ -468,6 +472,61 @@ img{
 
 .footer .box-contenedor .formulariofooter form{
   padding: 3rem;
+}
+
+.redesfooter a i{
+  color: white;
+  font-size: 20px;
+}
+    
+.redesfooter a i:hover{
+  color: rgb(77, 85, 90);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+form input {
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;        
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+input:focus, textarea:focus {
+    border-bottom: 1px solid;
+}
+
+textarea {
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+form a button{
+    background-color:rgb(33, 37, 41);
+    border-radius: 1.5rem;
+    width: 15rem;
+    padding: 1rem 0.5rem;
+    border: 0;
+}
+
+form a button p{
+    color: white;
 }
 
  /* estilo para el formulario */
