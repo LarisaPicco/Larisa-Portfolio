@@ -96,13 +96,8 @@ header .nav ul li{
     flex-wrap: wrap;
     padding-top: 12rem;
     padding-bottom: 6rem;
-    gap:1.5rem;
-    /* height: 100vh; */
 }
 
-.home .image{
-    flex: 1 1 45rem;
-}
 
 .home .image img{
     width:75%;
@@ -112,7 +107,6 @@ header .nav ul li{
 
 .home .contenido{
     padding: 2rem;
-    flex: 1 1 45;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -130,9 +124,6 @@ header .nav ul li{
     font-size: 2rem;
 }
 
-.home .image{
-    flex: 1 1 45rem;
-}
 
 .home .contenido{  
     
@@ -209,9 +200,7 @@ span{
 }
 
 .aboutme .presentacion-datos .datospersonales{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
+   text-align: center;
 }
 
 .aboutme .presentacion-datos .datospersonales p{
